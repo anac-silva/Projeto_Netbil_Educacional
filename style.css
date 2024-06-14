@@ -12,11 +12,11 @@
     --cor7: #5F6062;
 }
 
-
 *{
-    font-family: Roboto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     color: black;
 }
+
 
 body{
     margin: 0px;
@@ -25,50 +25,25 @@ body{
 header {
     display: flex;
     background-color: var(--cor1);
-    height: 150px;
+    height: 100px;
     padding: 2%;
     align-items: center;
 }
 
+header img{
+    width: 200px;
+}
+ /* PÁGINA PRINCIPAL*/
 a {
-    text-decoration: none;
-    color: black;
-}
-
-a > h2, h3{
     color: #5F6062;
-    margin: 10px;
-    padding: 0px 10px;
-
-}
-
-
-.artigos > a{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    background-color: #EDEDED;
-    width: 400px;
-    height: 400px;
-    margin: 1%;
-    text-align: justify;
-}
-.artigos{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.artigos img {
-    width: 250px;
-    padding: 15px;
+    text-decoration: none;
 }
 
 .principal img{
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     min-width: 320px;
+    margin: auto;
 }
 
 .principal {
@@ -79,41 +54,67 @@ a > h2, h3{
 
 }
 
-a img{
-    width: 100%;
-    max-width: 1500px;
-    min-width: 320px;
-    margin: auto;
+.princial h1{
+    font-size: 35px;
+    width: 90%;
+}
+
+.artigos {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.artigos > a {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EDEDED;
+    width: 250px;
+    height: 260px;
+    padding: 10px 20px;
+    margin: 20px;
+    text-align: justify;
     justify-content: center;
-    text-align: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 3px;
 }
 
-h1{
-    font-size: 60px;
+.artigos img {
+    width: 250px;
+    padding: 15px;
 }
 
-a h2 {
-    font-size: 22px;
+.artigos h2, h3{
+    margin: 2px 0px;
+}
+
+.artigos h2 {
+    font-size: 18px;
+    color: var(--cor7);
+    margin: 0px;
+}
+
+.artigos h3 {
+    font-size: 15px;
     color: var(--cor7);
 }
 
-a > h3 {
-    font-size: 16px;
-    color: var(--cor7);
-}
-
+/* Artigos*/
 .conteudoprincipal img {
     display: block;
     margin: auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 320px;
 }
 
 .conteudoprincipal{
     text-align: justify;
+    max-width: 1300px;
+    padding: 20px;
 }
 
 

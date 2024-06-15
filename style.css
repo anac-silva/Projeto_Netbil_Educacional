@@ -38,7 +38,7 @@ header {
 header img{
     width: 200px;
 }
- /* PÁGINA PRINCIPAL*/
+ /* PÁGINA PRINCIPAL - BLOG*/
 a {
     color: #5F6062;
     text-decoration: none;
@@ -138,7 +138,7 @@ a {
 
 }
 
-/* Artigos*/
+/* ESTILIZAÇÃO - ARTIGOS*/
 .conteudoprincipal img {
     width: 80%;
     max-width: 1200px;

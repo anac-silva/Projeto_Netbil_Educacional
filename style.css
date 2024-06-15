@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
 
+/*QUEM SOMOS*/
+
+
+
 :root{
     --cor0: #ffffff;
     --cor1: #EDEDED;
@@ -20,6 +24,7 @@
 
 body{
     margin: 0px;
+    background-color: var(--cor1);
 }
 
 header {
@@ -102,21 +107,66 @@ a {
     color: var(--cor7);
 }
 
+.paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas a{
+    padding: 10px;
+    background-color: var(--cor1);
+    color: var(--cor7);
+    margin: 5px;
+}
+
+.home a{
+    display: flex;
+    padding: 10px;
+    background-color: var(--cor1);
+    color: var(--cor6);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+
+.home a:hover{
+    display: flex;
+    padding: 12px;
+    background-color: var(--cor1);
+    color: var(--cor6);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+
+}
+
 /* Artigos*/
 .conteudoprincipal img {
-    display: block;
+    width: 80%;
+    max-width: 1200px;
+    min-width: 375px;
     margin: auto;
-    width: 100%;
-    max-width: 1000px;
-    min-width: 320px;
 }
 
 .conteudoprincipal{
+    display: flex;
     text-align: justify;
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 20px;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    background-color: var(--cor0);
 }
 
+.conteudoprincipal h3{
+    font-size: 13px;
+    font-style: normal;
+    color: #5f6062a2;
+}
 
+.conteudoprincipal h1{
+    font-size: 50px;
 
+}
 

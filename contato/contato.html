@@ -18,17 +18,57 @@
                 
             <div class="nav">
                 <a href="../quemsomos.html">Quem Somos</a>
-                <a href="blog/index.html">Blog Netbil</a>
+                <a href="../blog/index.html">Blog Netbil</a>
                 <a href="../colaboradores/colaboradores.html">Colaboradores</a>
                 <a href="../contato/contato.html">Contato</a>
             </div>
         </div> 
     </header>
     <main>
-        
+        <div class="contato">
+            <h2>Formulário de Contato</h2>
+            <form id="contactForm" onsubmit="submitForm(event)">
+              <label for="nome">Nome: *</label>
+              <input type="text" id="nome" name="nome" required>
+          
+              <label for="email">Email: *</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="telefone">Telefone: *</label>
+              <input type="tel" id="telefone" name="telefone" required>
+          
+              <label for="cidade">Cidade: *</label>
+              <input type="text" id="cidade" name="cidade" required>
+          
+              <label for="mensagem">Mensagem: *</label>
+              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          
+              <button type="submit">Enviar</button>
+            </form>
+        </div>
+          
+          <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+          <script src="script.js"></script>
     </main>
     <footer>
+        <div class="logobranca">
+            <img src="../Imagens/logo_netbilbranca.png" alt="">
+        </div>
 
+        <div class="atendimento">
+            <h2>CENTRAL DE ATENDIMENTO</h2>
+            <p>(18) 3659-9000 <br>
+            (11) 3521-7105</p>
+
+            <p>Sede: Rua Brasil, 79 <br>
+            Centro, Bilac - SP <br>
+            CEP 16210-000</p>
+
+            <p>Escritório: Rua Funchal, 418, 35º andar <br>
+            Vila Olímpia, São Paulo - SP <br>
+            CEP 04551-060</p>
+            <p>contato@netbil.com.br</p>
+        </div>
     </footer>
 </body>
 

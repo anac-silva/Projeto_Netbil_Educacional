@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
 
-
-
-
-
 :root{
     --cor0: #ffffff;
     --cor1: #EDEDED;
@@ -78,7 +74,7 @@ header img{
     width: 100%;
 }
 
-.quemsomos div{
+#mapa{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -121,6 +117,54 @@ header img{
 .texto a:hover {
     background-color: var(--cor2);
     color: var(--cor0);
+}
+
+.nossospilares{
+    width: 100%;
+    background-color: var(--cor1);
+    max-width: 1000px;
+    min-width: 375px;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    text-indent: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.158);
+}
+
+.nossospilares h2{
+    text-align: center;
+}
+
+
+.pilares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.educação{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.educação img{
+    display: flex;
+    width: 130px;
+    border-radius: 65px;
+
+}
+
+.educação p{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    color: rgb(128, 10, 10);
+    justify-content: center;
 }
 
 footer{
@@ -276,6 +320,7 @@ a {
     align-items: stretch;
     margin: auto;
     background-color: var(--cor0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
 }
 
 .conteudoprincipal h3{

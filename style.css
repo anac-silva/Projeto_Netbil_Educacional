@@ -10,11 +10,11 @@
     --cor5: #00A52A;
     --cor6: #000000;
     --cor7: #5F6062;
-    --fontprincipal: Roboto
+    --fontprincipal: Roboto;
 }
 
 *{
-    font-family: var(--fontprincipal);
+    font-family: var(--fontprincipal), Arial;
 
 }
 
